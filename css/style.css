@@ -2,25 +2,43 @@ body{
     margin: 0px 260px 0px 260px;
     /* padding: 0px 120px 0px 80px; */
 }
+.titulo_nivel-1{
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    padding: 0px 1px 0px 20px;
+
+}
+.tilulo_nivel-2{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000000;
+    
+}
 #logo{
     padding: 0%;
 }
 figure{
     
+    text-align: center;
     background-color: whitesmoke;
-    margin:  2% 21% 4% 16%;
-    padding: 1% 1% 1% 1%;
+    color: lightgrey;
+    padding: 15px;
+    border: 1px solid lightgrey;
     
 }
+figure img { 
+    width: 100%;
+}
+#Matrix-musicdot{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#familia{
+    width: 275px;
+    margin: 0 0 10px 10px;
+    float: right;
+}
 figcaption{
-    margin: 1% 40% 1% 42%
-}
-h2{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000000;
-}
-h1{
+    padding: 10px;
     color: #3D3D3D;
-    background-color: #E1EDF2;
-    padding: 0px 1px 0px 20px;
 }
