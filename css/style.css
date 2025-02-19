@@ -1,3 +1,4 @@
+/* sobre */
 body{
     margin: 0px 260px 0px 260px;
     /* padding: 0px 120px 0px 80px; */
@@ -41,4 +42,8 @@ figure img {
 figcaption{
     padding: 10px;
     color: #3D3D3D;
+}
+/* inicio */
+#header_inicio{
+    background-color: #2D5377;
 }
