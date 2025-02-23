@@ -4,12 +4,14 @@ body{
     /* padding: 0px 120px 0px 80px; */
 }
 .titulo_nivel-1{
+    
     color: #3D3D3D;
     background-color: #E1EDF2;
-    padding: 0px 1px 0px 20px;
+    padding: 1px 1px 1px 20px;
 
 }
 .tilulo_nivel-2{
+    margin: 5px 0px 5px 0px;
     padding-bottom: 5px;
     border-bottom: 2px solid #000000;
     
@@ -46,4 +48,38 @@ figcaption{
 /* inicio */
 #header_inicio{
     background-color: #2D5377;
+}
+/* contato */
+.box_dados{
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px #272626 solid;
+}
+.Box_Opinião{
+    display: block;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    border: 1px #272626 solid;
+    
+}
+.box_dados::placeholder{
+    font-size: 15px;
+
+}
+.Box_Opinião::placeholder{
+    font-size: 15px;
+    
+}
+#botao{
+    border:2px #272626 solid;
+    width: 100px;
+    height: 50px;
+    margin: 10px 0px 0px 10px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 13px;
 }
